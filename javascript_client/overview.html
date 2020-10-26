@@ -19,9 +19,10 @@
           </a>
           <a href="/getting_started">Get Started</a>
           <a href="/guides">Guides</a>
-          <a href="http://www.rubydoc.info/gems/graphql/1.7.6/">API</a>
+          <a href="/api-doc/1.11.5/">API</a>
           <a href="https://tinyletter.com/graphql-ruby">Newsletter</a>
           <a href="https://github.com/rmosolgo/graphql-ruby">Source Code</a>
+          <a href="https://graphql.pro">Upgrade to Pro</a>
           <input
             class="search-input"
             onkeyup="GraphQLRubySearch.run(this)"
@@ -31,35 +32,36 @@
         </div>
       </div>
       <div class="search-results-container">
-        <div id="search-results"></div>
+        <div id="search-results">
+        </div>
       </div>
     </div>
     <div class="container">
       <p class="breadcrumb">
   <a href="/">GraphQL</a>
   &raquo; <a href="/guides">Guides</a>
-   &raquo; JavaScript Client
+   &raquo; <a href="/guides#javascript-client-guides">JavaScript Client</a>
   &raquo; Overview
 </p>
 
 
 <h1 class="guide-header">Overview</h1>
 <div class="guide-container">
-  <p>There is a JavaScript client for GraphQL-Ruby, <code class="highlighter-rouge">graphql-ruby-client</code>.</p>
+  <p>There is a JavaScript client for GraphQL-Ruby, <code class="language-plaintext highlighter-rouge">graphql-ruby-client</code>.</p>
 
 <p>You can install it from NPM or Yarn:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>yarn add graphql-ruby-client
-npm install graphql-ruby-client
-</code></pre>
-</div>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yarn add graphql-ruby-client
+<span class="c"># Or:</span>
+npm <span class="nb">install </span>graphql-ruby-client
+</code></pre></div></div>
 
 <p>The source code is <a href="https://github.com/rmosolgo/graphql-ruby/tree/master/javascript_client">in the graphql-ruby repository</a>.</p>
 
 <p>See detailed guides for more info about its features:</p>
 
 <ul>
-  <li><a href="/javascript_client/sync">sync CLI</a> for use with <a href="http://graphql.pro">graphql-pro</a>’s persisted query backend</li>
+  <li><a href="/javascript_client/sync">sync CLI</a> for use with <a href="https://graphql.pro">graphql-pro</a>’s persisted query backend</li>
   <li>Subscription support:
     <ul>
       <li><a href="/javascript_client/apollo_subscriptions">Apollo integration</a></li>
